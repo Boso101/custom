@@ -1,0 +1,16 @@
+{
+  "name": "Weapon Equip",
+  "baseManaCost": 0,
+  "type": "HERO_POWER",
+  "heroClass": "ANY",
+  "rarity": "FREE",
+  "description": "Both players equip a random weapon.",
+  "targetSelection": "NONE",
+  "spell": {
+			"class": "EquipRandomWeaponSpell",
+			"targetPlayer": "BOTH"
+  },
+  "collectible": false,
+  "set": "BLACKROCK_MOUNTAIN",
+  "fileFormatVersion": 1
+}

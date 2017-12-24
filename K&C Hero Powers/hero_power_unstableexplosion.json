@@ -1,0 +1,19 @@
+{
+  "name": "Unstable Explosion",
+  "baseManaCost": 1,
+  "type": "HERO_POWER",
+  "heroClass": "ANY",
+  "rarity": "FREE",
+  "description": "Deal 1 damage to two random enemies.",
+  "targetSelection": "AUTO",
+		"spell": {
+			"class": "MissilesSpell",
+			"target": "ENEMY_CHARACTERS",
+			"value": 1,
+			"howMany": 2,
+			"randomTarget": true
+  },
+  "collectible": true,
+  "set": "BLACKROCK_MOUNTAIN",
+  "fileFormatVersion": 1
+}

@@ -1,0 +1,17 @@
+{
+	"name": "Sir Zeliek",
+	"baseManaCost": 3,
+	"type": "MINION",
+	"baseAttack": 1,
+	"baseHp": 7,
+	"heroClass": "ANY",
+	"rarity": "LEGENDARY",
+	"race": "DEMON",
+	"description": "Your hero is Immune.",
+	"attributes": {
+		"IMMUNE_HERO": true
+	},
+	"collectible": true,
+	"set": "GOBLINS_VS_GNOMES",
+	"fileFormatVersion": 1
+}

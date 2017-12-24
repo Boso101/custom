@@ -1,0 +1,69 @@
+{
+	"name": "Diabolical Powers",
+	"baseManaCost": 2,
+	"type": "HERO_POWER",
+	"heroClass": "SHAMAN",
+	"rarity": "FREE",
+	"description": "Summon a random Imp.",
+	"targetSelection": "NONE",
+	"spell": {
+		"class": "SummonRandomNotOnBoardSpell",
+		"cards": [
+			"token_imp",
+			"minion_blood_imp",
+			"minion_imp_gang_boss",
+			"minion_flame_imp",
+			"minion_malchezaars_imp",
+			"minion_street_trickster",
+			"minion_tiny_knight_of_evil",
+			"minion_unlicensed_apothecary"
+		]
+	},
+	"condition": {
+		"class": "AndCondition",
+		"conditions": [
+			{
+				"class": "AndCondition",
+				"conditions": [
+					{
+						"class": "MinionOnBoardCondition",
+						"cardFilter": {
+							"class": "SpecificCardFilter",
+							"cardId": "token_searing_totem"
+						}
+					},
+					{
+						"class": "MinionOnBoardCondition",
+						"cardFilter": {
+							"class": "SpecificCardFilter",
+							"cardId": "token_healing_totem"
+						}
+					},
+					{
+						"class": "MinionOnBoardCondition",
+						"cardFilter": {
+							"class": "SpecificCardFilter",
+							"cardId": "token_wrath_of_air_totem"
+						}
+					},
+					{
+						"class": "MinionOnBoardCondition",
+						"cardFilter": {
+							"class": "SpecificCardFilter",
+							"cardId": "token_stoneclaw_totem"
+						}
+					}
+				],
+				"invert": true
+			},
+			{
+				"class": "MinionCountCondition",
+				"operation": "LESS",
+				"value": 7
+			}
+		]
+	},
+	"collectible": true,
+	"set": "BASIC",
+	"fileFormatVersion": 1
+}

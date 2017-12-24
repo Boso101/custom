@@ -1,0 +1,17 @@
+{
+  "name": "Three Wee Wishes",
+  "baseManaCost": 1,
+  "type": "HERO_POWER",
+  "heroClass": "ANY",
+  "rarity": "FREE",
+  "description": "Both players draw 3 cards.",
+  "targetSelection": "AUTO",
+	"spell": {
+		"class": "DrawCardSpell",
+		"targetPlayer": "BOTH",
+		"value": 3
+	},
+	"collectible": true,
+	"set": "BASIC",
+	"fileFormatVersion": 1
+}

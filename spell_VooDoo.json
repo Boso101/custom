@@ -1,0 +1,16 @@
+{
+	"name": "Play as Voodoo",
+	"baseManaCost": 0,
+	"type": "SPELL",
+	"heroClass": "ANY",
+	"rarity": "FREE",
+	"description": "Voodoo.",
+	"targetSelection": "NONE",
+	"spell":{
+		"class": "ChangeHeroSpell",
+		"card": "hero_VoodoomasterVex"
+	},
+	"collectible": true,
+	"set": "CLASSIC",
+	"fileFormatVersion": 1
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Ancient Power",
+  "baseManaCost": 2,
+  "type": "HERO_POWER",
+  "heroClass": "ANY",
+  "rarity": "FREE",
+  "description": "Give both players a random card. It costs (0).",
+  "targetSelection": "NONE",
+"spell": {
+		"class": "ReceiveCardAndDoSomethingSpell",
+		"cardFilter": {
+			"class": "CardFilter"
+		},
+		"spell": {
+			"class": "CardCostModifierSpell",
+			"target": "BOTH",
+			"cardCostModifier": {
+				"class": "CardCostModifier",
+				"target": "EVENT_CARD",
+				"operation": "SUBTRACT",
+				"value": 99
+			}
+		}
+	},
+	"collectible": true,
+	"set": "GOBLINS_VS_GNOMES",
+	"fileFormatVersion": 1
+}

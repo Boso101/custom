@@ -1,0 +1,15 @@
+{
+	"name": "Azari The Devourer",
+	"baseManaCost": 0,
+	"heroPower": "hero_power_Devour",
+	"type": "HERO",
+	"heroClass": "ANY",
+	"rarity": "LEGENDARY",
+	"attributes": {
+		"HP": 70,
+		"MAX_HP": 70
+	},
+	"collectible": false,
+	"set": "BLACKROCK_MOUNTAIN",
+	"fileFormatVersion": 1
+}

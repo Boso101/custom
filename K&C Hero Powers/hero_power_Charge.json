@@ -1,0 +1,16 @@
+{
+  "name": "Charge",
+  "baseManaCost": 1,
+  "type": "HERO_POWER",
+  "heroClass": "ANY",
+  "rarity": "FREE",
+  "description": "Give a minion charge.",
+  "targetSelection": "FRIENDLY_MINIONS",
+  "spell": {
+		"class": "AddAttributeSpell",
+		"attribute": "CHARGE"
+  },
+  "collectible": false,
+  "set": "BLACKROCK_MOUNTAIN",
+  "fileFormatVersion": 1
+}

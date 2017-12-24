@@ -1,0 +1,17 @@
+{
+  "name": "Recruit",
+  "baseManaCost": 2,
+  "type": "HERO_POWER",
+  "heroClass": "ANY",
+  "rarity": "FREE",
+  "description": "Recruit a minion for both players.",
+  "targetSelection": "AUTO",
+   "spell": {
+      "class": "PutRandomMinionOnBoardSpell",
+      "cardLocation": "DECK",
+      "targetPlayer": "BOTH"
+  },
+  "collectible": false,
+  "set": "BLACKROCK_MOUNTAIN",
+  "fileFormatVersion": 1
+}

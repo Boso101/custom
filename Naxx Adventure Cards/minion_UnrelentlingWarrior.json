@@ -1,0 +1,21 @@
+{
+	"name": "Unrelenting Warrior",
+	"baseManaCost": 3,
+	"type": "MINION",
+	"baseAttack": 3,
+	"baseHp": 4,
+	"heroClass": "ANY",
+	"rarity": "COMMON",
+	"description": "Deathrattle: Summon a Spectral Warrior for your opponent.",
+	"deathrattle": {
+		"class": "SummonSpell",
+		"targetPlayer": "OPPONENT",
+		"card": "minion_SpectralWarrior"
+	},
+	"attributes": {
+		"DEATHRATTLES": true
+	},
+	"collectible": true,
+	"set": "CLASSIC",
+	"fileFormatVersion": 1
+}

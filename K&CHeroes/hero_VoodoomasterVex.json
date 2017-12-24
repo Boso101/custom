@@ -1,0 +1,17 @@
+{
+	"name": "Voodoomaster Vex",
+	"baseManaCost": 0,
+	"heroPower": "hero_power_Charge",
+	"type": "HERO",
+	"heroClass": "ANY",
+	"rarity": "COMMON",
+	"attributes": {
+		"HP": 40,
+		"MAX_HP": 40,
+		"DOUBLE_BATTLECRIES": true,
+		"DOUBLE_DEATHRATTLES": true
+	},
+	"collectible": false,
+	"set": "BLACKROCK_MOUNTAIN",
+	"fileFormatVersion": 1
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Necromancy",
+  "baseManaCost": 2,
+  "type": "HERO_POWER",
+  "heroClass": "ANY",
+  "rarity": "FREE",
+  "description": "Add a random Naxxramas minion to your hand. It Costs (3) Less.",
+  "targetSelection": "NONE",
+ "spell": {
+		"class": "ReceiveCardAndDoSomethingSpell",
+		"cardFilter": {
+			"class": "CardFilter",
+			"cardType": "MINION",
+			"cardSet": "NAXXRAMAS"
+		},
+		"spell": {
+			"class": "CardCostModifierSpell",
+			"target": "FRIENDLY_PLAYER",
+			"cardCostModifier": {
+				"class": "CardCostModifier",
+				"target": "EVENT_CARD",
+				"operation": "SUBTRACT",
+				"value": 3
+			}
+		}
+	},
+	"collectible": true,
+	"set": "GOBLINS_VS_GNOMES",
+	"fileFormatVersion": 1
+}

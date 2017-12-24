@@ -1,0 +1,17 @@
+{
+  "name": "Polarity Shift",
+  "baseManaCost": null,
+  "type": "HERO_POWER",
+  "heroClass": "ANY",
+  "rarity": "FREE",
+  "description": "Swap the Attack and Health of all minions.",
+  "targetSelection": "AUTO",
+  "spell": {
+    "class": "SwapAttackAndHpSpell",
+    "target": "ALL_OTHER_MINIONS",
+    "randomTarget": false
+  },
+  "collectible": false,
+  "set": "BLACKROCK_MOUNTAIN",
+  "fileFormatVersion": 1
+}

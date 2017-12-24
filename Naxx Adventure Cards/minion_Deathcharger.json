@@ -1,0 +1,25 @@
+{
+	"name": "Death Charger",
+	"baseManaCost": 1,
+	"type": "MINION",
+	"baseAttack": 2,
+	"baseHp": 3,
+	"heroClass": "ANY",
+	"rarity": "COMMON",
+	"race": "DEMON",
+	"description": "Deathrattle: Deal 3 damage to your hero.",
+	"deathrattle": {
+			"class": "DamageSpell",
+			"target": "FRIENDLY_HERO",
+			"value": 3
+	},
+	"attributes": {
+		"DEATHRATTLE": true
+		},
+	"attributes": {
+		"CHARGE": true
+	},
+	"collectible": true,
+	"set": "CLASSIC",
+	"fileFormatVersion": 1
+}
