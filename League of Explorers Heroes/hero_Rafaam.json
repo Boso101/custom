@@ -1,0 +1,15 @@
+{
+	"name": "Rafaam The Supreme Archaeologist",
+	"baseManaCost": 0,
+	"heroPower": "hero_power_FirstPiece",
+	"type": "HERO",
+	"heroClass": "ANY",
+	"rarity": "COMMON",
+	"attributes": {
+		"HP": 60,
+		"MAX_HP": 60
+	},
+	"collectible": false,
+	"set": "NAXXRAMAS",
+	"fileFormatVersion": 1
+}

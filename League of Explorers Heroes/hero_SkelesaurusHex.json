@@ -1,0 +1,15 @@
+{
+	"name": "Skelesaurus Hex",
+	"baseManaCost": 0,
+	"heroPower": "hero_power_AncientPower,"
+	"type": "HERO",
+	"heroClass": "ANY",
+	"rarity": "COMMON",
+	"attributes": {
+		"HP": 30,
+		"MAX_HP": 30
+	},
+	"collectible": false,
+	"set": "NAXXRAMAS",
+	"fileFormatVersion": 1
+}
