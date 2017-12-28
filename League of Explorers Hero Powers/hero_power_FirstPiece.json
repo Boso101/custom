@@ -1,0 +1,29 @@
+{
+  "name": "Staff, First Piece",
+  "baseManaCost": 2,
+  "type": "HERO_POWER",
+  "heroClass": "ANY",
+  "rarity": "FREE",
+  "description": "Add a random rare card to your hand. It costs (2) less.",
+  "targetSelection": "NONE",
+"spell": {
+		"class": "ReceiveCardAndDoSomethingSpell",
+		"cardFilter": {
+			"class": "CardFilter",
+			"rarity": "RARE"
+		},
+		"spell": {
+			"class": "CardCostModifierSpell",
+			"target": "FRIENDLY_PLAYER",
+			"cardCostModifier": {
+				"class": "CardCostModifier",
+				"target": "EVENT_CARD",
+				"operation": "SUBTRACT",
+				"value": 2
+			}
+		}
+	},
+	"collectible": true,
+	"set": "GOBLINS_VS_GNOMES",
+	"fileFormatVersion": 1
+}
