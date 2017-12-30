@@ -1,7 +1,7 @@
 {
 	"name": "Skelesaurus Hex",
 	"baseManaCost": 0,
-	"heroPower": "hero_power_AncientPower,"
+	"heroPower": "hero_power_AncientPower",
 	"type": "HERO",
 	"heroClass": "ANY",
 	"rarity": "COMMON",
