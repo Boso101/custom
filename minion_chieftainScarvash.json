@@ -1,0 +1,19 @@
+{
+  "name": "Chieftain Scarvash",
+  "baseManaCost": 5,
+  "type": "MINION",
+  "heroClass": "ANY",
+  "baseAttack": 5,
+  "baseHp": 5,
+  "rarity": "LEGENDARY",
+  "description": "Enemy cards cost (1) more.",
+  "cardCostModifier": {
+    "class": "CardCostModifier",
+	"target": "ENEMY_HAND",
+    "targetPlayer": "OPPONENT",	
+    "value": 1
+  },
+  "collectible": true,
+  "set": "JOURNEY_TO_UNGORO",
+  "fileFormatVersion": 1
+}
